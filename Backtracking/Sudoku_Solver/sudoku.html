@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sudoku.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="board"></div>
+    <button id="submit" onclick="getBoard()">Run Sudoku Solver</button>
+    <button id="submit" onclick="restart()">Clear Board</button>
+    <div id="status">Hello, press the above button to run the program.</div>
+    <p>Input delay(Higher == Slower, Lower == Faster, in ms):<input type="number" id="delayInput" value="300"></p>
+    <script src="./sudoku.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./sc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <label for="first">First word: </label>
+            <input type="text" name="first" id="first" value="first" />
+            <label for="Second">Second word: </label>
+            <input type="text" name="second" id="second" value="second" />
+            <button onclick="startAlgo()">Calculate Edit Distance</button>
+        </div>
+        <p>Input delay(Higher == Slower, Lower == Faster, in ms):<input type="number" id="delayInput" value="300"></p>
+        <div id="dpContainer">
+    
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="./sc.js"></script>
+</body>
+</html>

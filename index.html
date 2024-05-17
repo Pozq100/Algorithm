@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="picture">
+            <img src="./assets/coding_image.jpeg">
+        </div>
+        <div class="info">
+            <h1 id="name">Algorithm Visualization</h1>
+            <p id="about">Hello, this webpage is used to visualize algorithms when they are running
+                and to make it easier to understand the algorithms.
+                The code for this webpage can be found <a href="" target="_blank">here</a>
+            </p>
+        </div>
+        <article class="files">
+            <div class="folder" id="backtracking" onclick="redirect(this)">
+                <p class="folder-text">Backtracking</p>
+                <div class="papers"></div>
+            </div>
+            <p>About: Backtracking Algorithms,<br/>for e.g. MiniMax (Tic Tac Toe), Sudoku Solver </p>
+        </article>
+        <article  class="files">
+            <div class="folder" id="dp" onclick="redirect(this)">
+                <p class="folder-text">Dynamic Programming</p>
+                <div class="papers"></div>
+            </div>
+            <p>About: Dynamic Programming,<br/>for e.g. Spell Checker (Calculate Edit Distance)</p>
+        </article >
+        <article class="files">
+            <div class="folder" id="sorting" onclick="redirect(this)">
+                <p class="folder-text">Sorting</p>
+                <div class="papers"></div>
+            </div>
+            <p>About: Sorting Algorithms,<br/>for e.g. Bubble Sort</p>
+        </article>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

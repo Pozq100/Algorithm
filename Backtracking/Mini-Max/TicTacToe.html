@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./TicTacToe.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Tic Tac Toe -->
+    <div>
+        <div id="container"></div>
+        <div id="result"></div>
+        <button onclick="resetBoard()">Reset</button>
+        <p>Green - AI Wins, Red - Human Wins, Blue - Ties</p>
+        <p>Input delay(Higher == Slower, Lower == Faster, in ms):<input type="number" id="delayInput" value="1"></p>
+    
+    </div>
+    <div class="possibilities">
+        Possibilities
+        <div id="pContainer">
+
+        </div>
+    </div>
+    <script src="./TicTacToe.js"></script>
+</body>
+</html>
