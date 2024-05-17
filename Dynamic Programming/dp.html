@@ -7,15 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="card-container">
-        <article class="cards" id="spellchecker" onclick="redirectCard(this)">
-            <div class="card-image">
-            <img src="../assets/spellchecker.png" alt=" "></div>
-            <div class="card-info">
-                <p class="card-title">Spelling Checker</p>
-                <p class="card-about">Using Levenshtein Distance to find edit distance of two words</p>
-            </div>
-        </article>
+    <div>
+        <button class="cdArrowBack" onclick="histBack()" ><img src="../assets/arrow_back.png" alt="" /> Go Back</button>
+        <div class="card-container">
+            <article class="cards" id="spellchecker" onclick="redirectCard(this)">
+                <div class="card-image">
+                <img src="../assets/spellchecker.png" alt=" "></div>
+                <div class="card-info">
+                    <p class="card-title">Spelling Checker</p>
+                    <p class="card-about">Using Levenshtein Distance to find edit distance of two words</p>
+                </div>
+            </article>
+        </div>
     </div>
     
     <script src="../script.js"></script>

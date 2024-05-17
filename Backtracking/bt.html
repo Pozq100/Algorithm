@@ -7,23 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="card-container">
-        <article class="cards" id="minimax" onclick="redirectCard(this)">
-            <div class="card-image">
-            <img src="../assets/tictactoe.png" alt=" "></div>
-            <div class="card-info">
-                <p class="card-title">MiniMax</p>
-                <p class="card-about">Tic Tac Toe AI</p>
-            </div>
-        </article>
-        <article class="cards" id="sudokusolver" onclick="redirectCard(this)">
-            <div class="card-image">
-            <img src="../assets/sudoku.png" alt=" "></div>
-            <div class="card-info">
-                <p class="card-title">Sudoku Solver</p>
-                <p class="card-about"></p>
-            </div>
-        </article>
+    <div>
+        <button class="cdArrowBack" onclick="histBack()" ><img src="../assets/arrow_back.png" alt="" /> Go Back</button>
+        <div class="card-container">
+            <article class="cards" id="minimax" onclick="redirectCard(this)">
+                <div class="card-image">
+                <img src="../assets/tictactoe.png" alt=" "></div>
+                <div class="card-info">
+                    <p class="card-title">MiniMax</p>
+                    <p class="card-about">Tic Tac Toe AI</p>
+                </div>
+            </article>
+            <article class="cards" id="sudokusolver" onclick="redirectCard(this)">
+                <div class="card-image">
+                <img src="../assets/sudoku.png" alt=" "></div>
+                <div class="card-info">
+                    <p class="card-title">Sudoku Solver</p>
+                    <p class="card-about"></p>
+                </div>
+            </article>
+        </div>
     </div>
     <script src="../script.js"></script>
 </body>

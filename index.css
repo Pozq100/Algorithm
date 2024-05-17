@@ -17,6 +17,7 @@ article {
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
     justify-items: center;
+    margin: 20px;
 }
 
 .info {
@@ -198,6 +199,30 @@ article {
     cursor: pointer;
     transform: scale(1.05) rotate(3deg);
     box-shadow: 0 0 10px 1px gold;
+}
+
+/* ----------------------------- Back Button ------------------------------- */
+.cdArrowBack{
+    height: 8vh;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    left: 30px;
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.cdArrowBack > img {
+    height: 80%;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.cdArrowBack:hover{
+    border: 1px solid white;
+    border-radius: 15px;
 }
 
 @media screen and (max-width:700px) {
